@@ -1088,8 +1088,8 @@ padding-bottom: 40px;
 }
 #contact {
     background: url("../images/image-from-rawpixel-id-6480428-original.png");
-    background-position-y: 125%;
-    background-size: contain;
+    background-position-y: -10%;
+    background-size: cover;
     display: none;
     height: 100%;
     text-align: center;
