@@ -1963,17 +1963,19 @@ for tabs and large phones
         font-weight: 400;
     }
     .about-first-paragraph .color{
-        font-size: 20px
+        font-size: 35px
     }
     .about-first-line{
-        font-size: 32px;
+        font-size: 35px;
+        margin-top: 70px;
         opacity: 1;
         margin-bottom: 10px;
         display: block;
     }
     .about-second-line{
         opacity: .8;
-        font-size: 24px;
+        font-size: 30px;
+        margin-top: 70px;
     }
     .about-main{
         display: flex;
