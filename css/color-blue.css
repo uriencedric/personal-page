@@ -71,38 +71,3 @@
 form button{
     background: #035aa6;
 }
-
-.fa-github{
-    color: #03001c !important;
-}
-
-.fa-linkedin{
-    color: #035aa6 !important;
-}
-
-@media all and (max-width: 550px) and (min-width: 5px){
-    .service:hover .service-img img{
-        box-shadow:0px 0px 0px 0px #c70039 ;
-    }
-}
-
-.error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-  }
-.sent-message {
-    display: none;
-    color: #fff;
-    background: #18d26e;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-  }
-
-  .d-block {
-    display: block;
-  }

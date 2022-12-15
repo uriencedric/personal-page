@@ -9,9 +9,52 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
 
 
+/**
+Overrides starts
+*/
+.fa-github{
+    color: #03001c !important;
+}
+
+.fa-linkedin{
+    color: #035aa6 !important;
+}
+
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #c70039 ;
+    }
+}
+
+.error-message {
+    font-family: 'Raleway';
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+.sent-message {
+    font-family: 'Raleway';
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .d-block {
+    display: block;
+  }
 ::placeholder{
     color: rgb(192, 192, 192);
 }
+
+/**
+Overrides ends
+*/
 
 *{
     padding: 0%;
