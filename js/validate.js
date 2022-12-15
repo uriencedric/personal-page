@@ -49,27 +49,11 @@
   });
 
   function php_email_form_submit(thisForm, action, formData) {
-    var constraints = {
-      name: {
-        presence: true,
-      },
-      email: {
-        presence: true,
-      },
-      subject: {
-        presence: true,
-      },
-      message: {
-        presence: true,
-      }
-    };
-
-    validate(formData, constraints);
-    
+   
     fetch(action, {
       method: 'POST',
-      body: formData,
-      headers: {'X-Requested-With': 'XMLHttpRequest'}
+      body:  formData ,
+      headers: {'X-Requested-With': 'XMLHttpRequest;'}
     })
     .then(response => {
       return response.text();
