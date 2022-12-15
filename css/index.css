@@ -1086,13 +1086,16 @@ padding-bottom: 40px;
     text-decoration: none;
     color: #000;
 }
-#contact{
+#contact {
+    background: url("../images/image-from-rawpixel-id-6480428-original.png");
+    background-position-y: 120%;
     display: none;
-    height: auto;
+    height: 100%;
     text-align: center;
     width: 100%;
-    background: #fff;
-    position: relative;
+    background-repeat: no-repeat;
+    /* background: #fff; */
+    position: absolute;
 }
 .contact-header{
     height: auto;
@@ -1952,7 +1955,7 @@ for tabs and large phones
     .about-first-paragraph{
         color: #000;
         justify-content: center;
-        font-size: 40px;
+        font-size: 20px;
         font-family: poppins;
         width: 95%;
         padding: 25px;
