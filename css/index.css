@@ -51,7 +51,10 @@ Overrides starts
 ::placeholder{
     color: rgb(192, 192, 192);
 }
-
+.link-blog {
+    color: #035aa6 !important;
+    text-decoration: none;
+}
 /**
 Overrides ends
 */
